@@ -1,0 +1,96 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# LangChain API keys or sensitive configuration
+.env
+*.env
+
+# Byte-compiled / optimized / compiled code
+*.pyc
+*.pyo
+*.pyd
+*.pyd.dylib
+
+# Logs and debug files
+*.log
+*.trace
+*.out
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# LangChain and dependency outputs
+*.db
+chromadb/
+langchain_cache/
+
+# Temporary and build files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+build/
+dist/
+*.egg-info/
+
+# Testing and coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+coverage/
+*.cover
+*.coverage
+*.coverage.*
+
+# Jupyter notebook checkpoints (if any notebooks are used)
+.ipynb_checkpoints/
+
+# Documentation builds
+/site/
+docs/_build/
+
+# Docker and CI/CD
+*.env
+.dockerignore
+Dockerfile
+*.docker
+*.env.*
+coverage.xml
+test-results.xml
+
+# Node.js if frontend assets are included
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Machine learning and large file artifacts
+model/
+*.h5
+*.pkl
+*.onnx
+*.pb
+data/
+*.tar
+*.tar.gz
+*.zip
